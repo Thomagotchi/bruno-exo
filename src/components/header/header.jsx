@@ -6,12 +6,12 @@ export function Header() {
       <div className="logo-container w-3/12">
         <img
           className="greenscope-logo my-8"
-          src="images/logo-greenscope.svg"
-          alt="Greenscope logo."
+          src="images/typography-greenscope.svg"
+          alt="Greenscope typography."
         />
       </div>
 
-      <div className="navbar flex flex-row text-primary-dark-green text-1xl gap-24 w-4/12 justify-center opacity-70">
+      <div className="navbar flex flex-row text-primary-dark-green text-1s gap-24 w-4/12 justify-center opacity-70">
         <div className="flex flex row gap-8">
           <p>Solutions</p>
           <img
