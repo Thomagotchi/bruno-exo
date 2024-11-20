@@ -12,10 +12,26 @@ export function Header() {
       </div>
 
       <div className="navbar flex flex-row text-primary-dark-green text-1xl gap-24 w-4/12 justify-center opacity-70">
-        <div>Solutions</div>
-        <div>Platform</div>
-        <div>Resources</div>
-        <div>About</div>
+        <div className="flex flex row gap-8">
+          <p>Solutions</p>
+          <img
+            src="buttons/dropdown-arrow.svg"
+            alt="Dropdown arrow for solutions menu."
+          />
+        </div>
+        <div className="flex flex row gap-8">
+          <p>Platform</p>
+          <img
+            src="buttons/dropdown-arrow.svg"
+            alt="Dropdown arrow for platform menu."
+          />
+        </div>
+        <div>
+          <p>Resources</p>
+        </div>
+        <div>
+          <p>About</p>
+        </div>
       </div>
 
       <div className="demo-button-container ml-auto">
