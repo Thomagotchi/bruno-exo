@@ -7,7 +7,7 @@ export function HomeHero() {
           alt="Photo of a business meeting."
         />
         <img
-          src="/public/images/hero-photo-2.png"
+          src="/public/images/hero-photo-2.svg"
           alt="Photo of a chart depicting ESG leverage."
         />
       </div>
