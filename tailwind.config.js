@@ -111,6 +111,9 @@ export default {
         "secondary-orange": "rgba(255, 155, 110, 1)",
         "secondary-pink": "rgba(255, 204, 204, 1)",
       },
+      opacity: {
+        20: "0.2",
+      },
       height: {
         32: "32px",
         40: "40px",
