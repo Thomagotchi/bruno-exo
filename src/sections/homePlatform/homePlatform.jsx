@@ -1,12 +1,12 @@
 import { useState } from "react";
 import platformData from "../../assets/data/platformData.json";
+import { PlatformCarouselCard } from "../../components/cards/platformCarouselCard/platformCarouselCard";
 
 export function HomePlatform() {
   const [currentCard, setCurrentCard] = useState(0);
-  console.log(currentCard);
 
   return (
-    <div className="mx-auto mb-40 mt-120 w-1192">
+    <section id="platform" className="mx-auto mb-40 mt-120 w-1192">
       <div className="flex text-primary-dark-green w-full">
         <h2 className="text-2m font-neue">
           All your ESG journey needs in one platform
@@ -26,6 +26,14 @@ export function HomePlatform() {
           ))}
         </div>
       </div>
-    </div>
+      <div className="rounded-8 overflow-hidden w-1192 mx-auto">
+        {platformData.map((platformCard) => (
+          <PlatformCarouselCard
+            key={`platform-card-${platformData.indexOf(platformCard)}`}
+            menuItem={platformCard}
+          />
+        ))}
+      </div>
+    </section>
   );
 }

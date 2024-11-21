@@ -11,7 +11,15 @@
       "custom dashboards."
     ],
     "src": "/public/images/platform/esg-data-solutions.svg",
-    "alt": "ESG Data solution chart."
+    "alt": "ESG Data solution chart.",
+    "colors": {
+      "main": "secondary-dark-purple",
+      "tagText": "primary-light-green",
+      "tagBackground": "secondary-dark-purple",
+      "caption": "secondary-dark-purple",
+      "background": "secondary-yellow",
+      "button": "secondary-dark-purple"
+    }
   },
   {
     "title": "Carbon Assessment",
@@ -24,7 +32,15 @@
       "decarbonization strategy."
     ],
     "src": "/public/images/platform/carbon-assessment.svg",
-    "alt": "Carbon assessment chart."
+    "alt": "Carbon assessment chart.",
+    "colors": {
+      "main": "primary-light-green",
+      "tagText": "primary-dark-green",
+      "tagBackground": "secondary-pink",
+      "caption": "primary-medium-green",
+      "background": "primary-dark-green",
+      "button": "primary-light-green"
+    }
   },
   {
     "title": "CSRD",
@@ -37,13 +53,29 @@
       "reports."
     ],
     "src": "/public/images/platform/csrd.svg",
-    "alt": "CSRD chart."
+    "alt": "CSRD chart.",
+    "colors": {
+      "main": "primary-dark-green",
+      "tagText": "primary-white",
+      "tagBackground": "primary-dark-green",
+      "caption": "primary-dark-green",
+      "background": "secondary-pink",
+      "button": "primary-dark-green"
+    }
   },
   {
     "title": "Impact Analysis & Compliance",
     "tags": ["Mot Clé associé", "Mot Clé associé"],
     "description": ["", "", "", ""],
     "src": "/public/images/platform/impact-analysis.svg",
-    "alt": "ESG Data solution chart."
+    "alt": "ESG Data solution chart.",
+    "colors": {
+      "main": "primary-light-green",
+      "tagText": "secondary-dark-purple",
+      "tagBackground": "secondary-orange",
+      "caption": "primary-medium-green",
+      "background": "secondary-dark-purple",
+      "button": "primary-white"
+    }
   }
 ]

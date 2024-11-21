@@ -15,6 +15,7 @@ export default {
     gap: {
       4: "4px",
       8: "8px",
+      10: "10px",
       20: "20px",
       24: "24px",
       26: "26px",
@@ -73,11 +74,16 @@ export default {
     },
     colors: {
       current: "currentColor",
+      "primary-white": "rgba(255, 255, 255, 1)",
       "primary-light-green": "rgba(244, 248, 239, 1)",
       "primary-medium-green": "rgba(214, 224, 211, 1)",
       "primary-dark-green": "rgba(60, 74, 65, 1)",
       "primary-light-purple": "rgba(226, 212, 254, 1)",
       "secondary-medium-purple": "rgba(148, 107, 182, 1)",
+      "secondary-dark-purple": "rgba(69, 56, 72, 1)",
+      "secondary-yellow": "rgba(255, 221, 165, 1)",
+      "secondary-orange": "rgba(255, 155, 110, 1)",
+      "secondary-pink": "rgba(255, 204, 204, 1)",
     },
     fontFamily: {
       neue: ["PP Neue Montreal"],
