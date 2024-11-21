@@ -2,7 +2,7 @@ import { DemoButtonSecondary } from "../../components/buttons/demoButtonSecondar
 
 export function HomeHero() {
   return (
-    <section id="hero" className="mx-auto w-1192 py-40">
+    <section id="home-hero" className="mx-auto w-1192 py-40">
       <div className="flex flex-row h-440 gap-8">
         <img
           src="/images/hero/hero-photo-1.png"

@@ -4,15 +4,20 @@ export default {
   theme: {
     borderWidth: {
       default: "1px",
+      0.8: "0.8px",
     },
     borderRadius: {
       6: "6px",
       8: "8px",
+      80: "80px",
     },
     gap: {
+      4: "4px",
       8: "8px",
+      20: "20px",
       24: "24px",
       26: "26px",
+      48: "48px",
     },
     fontSize: {
       "1s": [
@@ -32,7 +37,28 @@ export default {
       "3s": [
         "16px",
         {
+          lineHeight: "24px",
+          fontWeight: "400",
+        },
+      ],
+      "4s": [
+        "16px",
+        {
           lineHeight: "19px",
+          fontWeight: "500",
+        },
+      ],
+      "1m": [
+        "32px",
+        {
+          lineHeight: "38px",
+          fontWeight: "500",
+        },
+      ],
+      "2m": [
+        "40px",
+        {
+          lineHeight: "48px",
           fontWeight: "500",
         },
       ],
@@ -58,6 +84,7 @@ export default {
     },
     extend: {
       height: {
+        32: "32px",
         40: "40px",
         50: "50px",
         64: "64px",
@@ -65,6 +92,8 @@ export default {
       },
       width: {
         64: "64px",
+        300: "300px",
+        792: "792px",
       },
       strokeWidth: {
         1: "1px",
@@ -75,20 +104,26 @@ export default {
       },
       margin: {
         4: "4px",
-        8: "8px",
-        12: "12px",
-        24: "24px",
-        40: "40px",
-        logoSliderMargin: "calc((100vw - 612px) / 12)",
-      },
-      padding: {
+        5: "5px",
         8: "8px",
         12: "12px",
         16: "16px",
         24: "24px",
+        40: "40px",
+        48: "48px",
+        logoSliderMargin: "calc((100vw - 612px) / 12)",
+      },
+      padding: {
+        8: "8px",
+        9: "9px",
+        12: "12px",
+        16: "16px",
+        18: "18px",
+        24: "24px",
         39: "39px",
         40: "40px",
         72: "72px",
+        120: "120px",
       },
       animation: {
         logoSliderAnimation: "slide 60s infinite linear",
