@@ -93,12 +93,15 @@ export default {
       width: {
         64: "64px",
         300: "300px",
-        792: "792px",
+        800: "800px",
       },
       strokeWidth: {
         1: "1px",
       },
       spacing: {
+        1: "1px",
+        2: "2px",
+        18: "18px",
         1192: "1192px",
         "200%": "200%",
       },
@@ -111,6 +114,7 @@ export default {
         24: "24px",
         40: "40px",
         48: "48px",
+        120: "120px",
         logoSliderMargin: "calc((100vw - 612px) / 12)",
       },
       padding: {
@@ -123,6 +127,7 @@ export default {
         39: "39px",
         40: "40px",
         72: "72px",
+        100: "100px",
         120: "120px",
       },
       animation: {

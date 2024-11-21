@@ -1,7 +1,28 @@
-export function SolutionsCarouselCard({ cardContent }) {
+import solutions from "../../../assets/data/homeSolutionsData.json";
+
+export function SolutionsCarouselCard({ cardContent, curr }) {
   return (
-    <div className="flex w-792 relative inset-0 items-center gap-48 mb-5">
-      <img src={cardContent.src} alt={cardContent.alt} className="rounded-8" />
+    <div
+      className={`flex w-800 relative inset-0 gap-48 mb-5 pr-8 transition ease-out duration-1000 ${
+        solutions.indexOf(cardContent) < curr && "opacity-0"
+      }`}
+      style={{ transform: `translateX(-${curr * 100}%)` }}
+    >
+      <img
+        src={cardContent.src}
+        alt={cardContent.alt}
+        className="rounded-8 relative overflow-hidden"
+      />
+      <img
+        className={`image-mask absolute transition-transform ease-out duration-700 left-1 -top-1 ${
+          curr === solutions.indexOf(cardContent)
+            ? "translate-y-0"
+            : "-translate-y-18"
+        }`}
+        src="/images/solutions/mask.svg"
+        alt="Clip path for first carousel image."
+      />
+
       <div className="flex flex-col pt-16 h-full">
         <div className="flex items-center gap-20 ">
           <img
@@ -18,3 +39,5 @@ export function SolutionsCarouselCard({ cardContent }) {
     </div>
   );
 }
+
+// 18px spacing
