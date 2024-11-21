@@ -11,6 +11,7 @@ export default {
       8: "8px",
       80: "80px",
       100: "100px",
+      133: "133px",
     },
     gap: {
       4: "4px",
@@ -21,7 +22,27 @@ export default {
       26: "26px",
       48: "48px",
     },
+    colors: {
+      current: "currentColor",
+      "primary-white": "rgba(255, 255, 255, 1)",
+      "primary-light-green": "rgba(244, 248, 239, 1)",
+      "primary-medium-green": "rgba(214, 224, 211, 1)",
+      "primary-dark-green": "rgba(60, 74, 65, 1)",
+      "primary-light-purple": "rgba(226, 212, 254, 1)",
+      "secondary-medium-purple": "rgba(148, 107, 182, 1)",
+      "secondary-dark-purple": "rgba(69, 56, 72, 1)",
+      "secondary-yellow": "rgba(255, 221, 165, 1)",
+      "secondary-orange": "rgba(255, 155, 110, 1)",
+      "secondary-pink": "rgba(255, 204, 204, 1)",
+    },
     fontSize: {
+      "1xs": [
+        "12px",
+        {
+          lineHeight: "10px",
+          fontWeight: "500",
+        },
+      ],
       "1s": [
         "14px",
         {
@@ -32,7 +53,7 @@ export default {
       "2s": [
         "16px",
         {
-          lineHeight: "19px",
+          lineHeight: "21px",
           fontWeight: "400",
         },
       ],
@@ -72,30 +93,31 @@ export default {
         },
       ],
     },
-    colors: {
-      current: "currentColor",
-      "primary-white": "rgba(255, 255, 255, 1)",
-      "primary-light-green": "rgba(244, 248, 239, 1)",
-      "primary-medium-green": "rgba(214, 224, 211, 1)",
-      "primary-dark-green": "rgba(60, 74, 65, 1)",
-      "primary-light-purple": "rgba(226, 212, 254, 1)",
-      "secondary-medium-purple": "rgba(148, 107, 182, 1)",
-      "secondary-dark-purple": "rgba(69, 56, 72, 1)",
-      "secondary-yellow": "rgba(255, 221, 165, 1)",
-      "secondary-orange": "rgba(255, 155, 110, 1)",
-      "secondary-pink": "rgba(255, 204, 204, 1)",
-    },
     fontFamily: {
       neue: ["PP Neue Montreal"],
       inter: ["Inter"],
     },
     extend: {
+      colors: {
+        current: "currentColor",
+        "primary-white": "rgba(255, 255, 255, 1)",
+        "primary-light-green": "rgba(244, 248, 239, 1)",
+        "primary-medium-green": "rgba(214, 224, 211, 1)",
+        "primary-dark-green": "rgba(60, 74, 65, 1)",
+        "primary-light-purple": "rgba(226, 212, 254, 1)",
+        "secondary-medium-purple": "rgba(148, 107, 182, 1)",
+        "secondary-dark-purple": "rgba(69, 56, 72, 1)",
+        "secondary-yellow": "rgba(255, 221, 165, 1)",
+        "secondary-orange": "rgba(255, 155, 110, 1)",
+        "secondary-pink": "rgba(255, 204, 204, 1)",
+      },
       height: {
         32: "32px",
         40: "40px",
         50: "50px",
         64: "64px",
         440: "440px",
+        573: "573px",
       },
       width: {
         64: "64px",
@@ -119,6 +141,7 @@ export default {
         12: "12px",
         16: "16px",
         24: "24px",
+        32: "32px",
         40: "40px",
         48: "48px",
         120: "120px",
@@ -150,5 +173,10 @@ export default {
       },
     },
   },
+  safelist: [
+    {
+      pattern: /(primary-|secondary-)*/,
+    },
+  ],
   plugins: [],
 };

@@ -1,7 +1,16 @@
 [
   {
-    "title": "ESG Data Solution",
-    "tags": ["Mot Clé associé", "Mot Clé associé"],
+    "title": ["ESG Data Solution"],
+    "tags": [
+      {
+        "id": "1",
+        "text": "Mot Clé associé"
+      },
+      {
+        "id": "2",
+        "text": "Mot Clé associé"
+      }
+    ],
     "description": [
       "Automatically collect data, launch campaigns,",
       "establish quality processes, and build an ",
@@ -10,7 +19,7 @@
       "scoring rules, and track performance with ",
       "custom dashboards."
     ],
-    "src": "/public/images/platform/esg-data-solutions.svg",
+    "src": "/public/images/platform/esg-data-solution.png",
     "alt": "ESG Data solution chart.",
     "colors": {
       "main": "secondary-dark-purple",
@@ -22,8 +31,17 @@
     }
   },
   {
-    "title": "Carbon Assessment",
-    "tags": ["Mot Clé associé", "Mot Clé associé"],
+    "title": ["Carbon Assessment"],
+    "tags": [
+      {
+        "id": "1",
+        "text": "Mot Clé associé"
+      },
+      {
+        "id": "2",
+        "text": "Mot Clé associé"
+      }
+    ],
     "description": [
       "Choose a Carbon module from our options,",
       "estimate emissions across Scopes 1, 2, ",
@@ -31,7 +49,7 @@
       "recommendations, and build your ",
       "decarbonization strategy."
     ],
-    "src": "/public/images/platform/carbon-assessment.svg",
+    "src": "/public/images/platform/carbon-assessment.png",
     "alt": "Carbon assessment chart.",
     "colors": {
       "main": "primary-light-green",
@@ -43,8 +61,17 @@
     }
   },
   {
-    "title": "CSRD",
-    "tags": ["Mot Clé associé", "Mot Clé associé"],
+    "title": ["CSRD"],
+    "tags": [
+      {
+        "id": "1",
+        "text": "Mot Clé associé"
+      },
+      {
+        "id": "2",
+        "text": "Mot Clé associé"
+      }
+    ],
     "description": [
       "Leverage our expertise and tools to demystify",
       "CSRD and unlock opportunities. Conduct your",
@@ -52,7 +79,7 @@
       "analyses, collect data, and prepare audit-ready ",
       "reports."
     ],
-    "src": "/public/images/platform/csrd.svg",
+    "src": "/public/images/platform/csrd.png",
     "alt": "CSRD chart.",
     "colors": {
       "main": "primary-dark-green",
@@ -64,10 +91,24 @@
     }
   },
   {
-    "title": "Impact Analysis & Compliance",
-    "tags": ["Mot Clé associé", "Mot Clé associé"],
-    "description": ["", "", "", ""],
-    "src": "/public/images/platform/impact-analysis.svg",
+    "title": ["Impact Analysis", "& Compliance"],
+    "tags": [
+      {
+        "id": "1",
+        "text": "Mot Clé associé"
+      },
+      {
+        "id": "2",
+        "text": "Mot Clé associé"
+      }
+    ],
+    "description": [
+      "Analyze your biodiversity impact and",
+      "dependencies, achieve Taxonomy alignment,",
+      "conduct SFDR and PAI analysis, and stay",
+      "updated on regulatory news"
+    ],
+    "src": "/public/images/platform/impact-analysis.png",
     "alt": "ESG Data solution chart.",
     "colors": {
       "main": "primary-light-green",

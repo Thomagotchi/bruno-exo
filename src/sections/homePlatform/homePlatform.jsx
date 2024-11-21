@@ -19,18 +19,19 @@ export function HomePlatform() {
                 platformData.indexOf(platformCard) === currentCard &&
                 "bg-primary-dark-green/10"
               }`}
-              key={`${platformCard.title}-menu-button`}
+              key={`${platformCard.title.join(" ")}-menu-button`}
             >
-              {platformCard.title}
+              {platformCard.title.join(" ")}
             </button>
           ))}
         </div>
       </div>
-      <div className="rounded-8 overflow-hidden w-1192 mx-auto">
+      <div className="rounded-8 overflow-hidden w-1192 mx-auto mt-40 h-573">
         {platformData.map((platformCard) => (
           <PlatformCarouselCard
             key={`platform-card-${platformData.indexOf(platformCard)}`}
             menuItem={platformCard}
+            curr={currentCard}
           />
         ))}
       </div>
