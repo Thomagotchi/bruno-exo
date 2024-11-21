@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import solutions from "../../../assets/data/homeSolutionsData.json";
 
 export function SolutionsCarouselCard({ cardContent, curr }) {
@@ -47,5 +48,3 @@ export function SolutionsCarouselCard({ cardContent, curr }) {
     </div>
   );
 }
-
-// 18px spacing

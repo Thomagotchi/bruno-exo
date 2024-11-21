@@ -10,6 +10,7 @@ export default {
       6: "6px",
       8: "8px",
       80: "80px",
+      100: "100px",
     },
     gap: {
       4: "4px",
@@ -118,9 +119,11 @@ export default {
         logoSliderMargin: "calc((100vw - 612px) / 12)",
       },
       padding: {
+        7: "7px",
         8: "8px",
         9: "9px",
         12: "12px",
+        13: "13px",
         16: "16px",
         18: "18px",
         24: "24px",

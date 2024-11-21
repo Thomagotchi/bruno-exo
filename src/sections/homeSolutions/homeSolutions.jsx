@@ -4,7 +4,6 @@ import { SolutionsCarouselCard } from "../../components/cards/solutionsCarouselC
 
 export function HomeSolutions() {
   const [curr, setCurr] = useState(0);
-  console.log(curr);
 
   const prev = () => {
     setCurr((curr) => (curr === 0 ? solutions.length - 1 : curr - 1));

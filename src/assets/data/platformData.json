@@ -1,0 +1,49 @@
+[
+  {
+    "title": "ESG Data Solution",
+    "tags": ["Mot Clé associé", "Mot Clé associé"],
+    "description": [
+      "Automatically collect data, launch campaigns,",
+      "establish quality processes, and build an ",
+      "organization that mirrors your own, all within ",
+      "our platform. Benchmark best practices, set",
+      "scoring rules, and track performance with ",
+      "custom dashboards."
+    ],
+    "src": "/public/images/platform/esg-data-solutions.svg",
+    "alt": "ESG Data solution chart."
+  },
+  {
+    "title": "Carbon Assessment",
+    "tags": ["Mot Clé associé", "Mot Clé associé"],
+    "description": [
+      "Choose a Carbon module from our options,",
+      "estimate emissions across Scopes 1, 2, ",
+      "and 3, generate footprint reports, receive",
+      "recommendations, and build your ",
+      "decarbonization strategy."
+    ],
+    "src": "/public/images/platform/carbon-assessment.svg",
+    "alt": "Carbon assessment chart."
+  },
+  {
+    "title": "CSRD",
+    "tags": ["Mot Clé associé", "Mot Clé associé"],
+    "description": [
+      "Leverage our expertise and tools to demystify",
+      "CSRD and unlock opportunities. Conduct your",
+      "double materiality assessments, perform gap ",
+      "analyses, collect data, and prepare audit-ready ",
+      "reports."
+    ],
+    "src": "/public/images/platform/csrd.svg",
+    "alt": "CSRD chart."
+  },
+  {
+    "title": "Impact Analysis & Compliance",
+    "tags": ["Mot Clé associé", "Mot Clé associé"],
+    "description": ["", "", "", ""],
+    "src": "/public/images/platform/impact-analysis.svg",
+    "alt": "ESG Data solution chart."
+  }
+]
