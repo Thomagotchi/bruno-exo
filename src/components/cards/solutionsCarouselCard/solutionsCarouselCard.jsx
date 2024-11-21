@@ -32,9 +32,17 @@ export function SolutionsCarouselCard({ cardContent, curr }) {
           />
           <h3 className="text-1m font-neue">{cardContent.title}</h3>
         </div>
-        <p className="flex mt-auto w-300 text-3s font-inter opacity-70">
-          {cardContent.description}
-        </p>
+        <div className="flex flex-col mt-auto text-3s font-inter opacity-70">
+          {cardContent.description.map((text) => (
+            <p
+              key={`${
+                cardContent.title
+              }-paragraph-${cardContent.description.indexOf(text)}`}
+            >
+              {text}
+            </p>
+          ))}
+        </div>
       </div>
     </div>
   );
