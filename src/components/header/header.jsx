@@ -2,24 +2,24 @@ import { DemoButtonPrimary } from "../buttons/demoButtonPrimary/demoButtonPrimar
 
 export function Header() {
   return (
-    <header className="header mx-auto w-1192 flex flex-row font-neue items-center my-24">
-      <div className="logo-container w-3/12">
+    <header className="mx-auto w-1192 flex flex-row font-neue items-center my-24">
+      <div className="w-3/12">
         <img
-          className="greenscope-logo my-8"
-          src="images/typography-greenscope.svg"
+          className="my-8"
+          src="images/greenscope/typography-greenscope.svg"
           alt="Greenscope typography."
         />
       </div>
 
-      <div className="navbar flex flex-row text-primary-dark-green text-1s gap-24 w-4/12 justify-center opacity-70">
-        <div className="flex flex row gap-8">
+      <div className="flex flex-row text-primary-dark-green text-1s gap-24 w-4/12 justify-center opacity-70">
+        <div className="flex gap-8">
           <p>Solutions</p>
           <img
             src="buttons/dropdown-arrow.svg"
             alt="Dropdown arrow for solutions menu."
           />
         </div>
-        <div className="flex flex row gap-8">
+        <div className="flex gap-8">
           <p>Platform</p>
           <img
             src="buttons/dropdown-arrow.svg"
@@ -34,7 +34,7 @@ export function Header() {
         </div>
       </div>
 
-      <div className="demo-button-container ml-auto">
+      <div className="ml-auto">
         <DemoButtonPrimary />
       </div>
     </header>

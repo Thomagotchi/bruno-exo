@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Spendesk",
+    "alt": "Spendesk logo.",
+    "src": "/public/images/partners/spendesk.svg"
+  },
+  {
+    "name": "Doctolib",
+    "alt": "Doctolib logo.",
+    "src": "/public/images/partners/doctolib.svg"
+  },
+  {
+    "name": "Slack",
+    "alt": "Slack logo.",
+    "src": "/public/images/partners/slack.svg"
+  },
+  {
+    "name": "PayFit",
+    "alt": "PayFit logo.",
+    "src": "/public/images/partners/payfit.svg"
+  },
+  {
+    "name": "Natixis",
+    "alt": "Natixis logo.",
+    "src": "/public/images/partners/natixis.svg"
+  },
+  {
+    "name": "Slack2",
+    "alt": "Second slack logo.",
+    "src": "/public/images/partners/slack.svg"
+  }
+]

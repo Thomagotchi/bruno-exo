@@ -71,6 +71,7 @@ export default {
       },
       spacing: {
         1192: "1192px",
+        "200%": "200%",
       },
       margin: {
         4: "4px",
@@ -78,14 +79,25 @@ export default {
         12: "12px",
         24: "24px",
         40: "40px",
+        logoSliderMargin: "calc((100vw - 612px) / 12)",
       },
       padding: {
         8: "8px",
         12: "12px",
         16: "16px",
         24: "24px",
+        39: "39px",
         40: "40px",
         72: "72px",
+      },
+      animation: {
+        logoSliderAnimation: "slide 60s infinite linear",
+      },
+      keyframes: {
+        slide: {
+          "0%": { transform: "translateX(0)" },
+          "100%": { transform: "translateX(-100%)" },
+        },
       },
     },
   },
