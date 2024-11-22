@@ -5,13 +5,19 @@ export function HomeHero() {
     <section id="home-hero" className="mx-auto w-1192 py-40">
       <div className="flex flex-row h-440 gap-8">
         <img
-          src="/images/hero/hero-photo-1.png"
+          className="w-592 h-440 rounded-8"
+          loading="lazy"
+          src="/images/hero/hero-photo-1.webp"
           alt="Photo of a business meeting."
         />
-        <img
-          src="/images/hero/hero-photo-2.svg"
-          alt="Photo of a chart depicting ESG leverage."
-        />
+        <div>
+          <img
+            className="w-592 h-440"
+            loading="lazy"
+            src="/images/hero/hero-photo-2.svg"
+            alt="Photo of a chart depicting ESG leverage."
+          />
+        </div>
       </div>
       <div className="flex flex-row text-primary-dark-green py-72">
         <div className="w-5/12">

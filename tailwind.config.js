@@ -130,6 +130,7 @@ export default {
         48: "48px",
         64: "64px",
         300: "300px",
+        592: "592px",
         800: "800px",
       },
       strokeWidth: {
