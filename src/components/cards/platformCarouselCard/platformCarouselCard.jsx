@@ -1,12 +1,10 @@
-/* eslint-disable react/prop-types */
-
 import { LearnMoreButtonPrimary } from "../../buttons/learnMoreButtonPrimary/learnMoreButtonPrimary";
 
-export function PlatformCarouselCard({ menuItem, curr }) {
+export function PlatformCarouselCard({ menuItem, current }) {
   return (
     <div
       className={`w-100 p-72 font-neue bg-${menuItem.colors.background} flex transition ease-in-out duration-700`}
-      style={{ transform: `translateY(-${curr * 100}%)` }}
+      style={{ transform: `translateY(-${current * 100}%)` }}
     >
       <div className="flex flex-col">
         {menuItem.title.map((titleText) => (

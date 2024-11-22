@@ -1,4 +1,3 @@
-/* eslint-disable react/prop-types */
 import solutions from "../../../assets/data/homeSolutionsData.json";
 
 export function SolutionsCarouselCard({ cardContent, current }) {

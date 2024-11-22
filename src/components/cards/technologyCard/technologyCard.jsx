@@ -1,4 +1,3 @@
-/* eslint-disable react/prop-types */
 import { LearnMoreButtonPrimary } from "../../buttons/learnMoreButtonPrimary/learnMoreButtonPrimary";
 
 export function TechnologyCard({ cardData }) {

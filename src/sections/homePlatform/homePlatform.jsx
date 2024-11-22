@@ -37,7 +37,7 @@ export function HomePlatform() {
             <PlatformCarouselCard
               key={`platform-card-${platformData.indexOf(platformCard)}`}
               menuItem={platformCard}
-              curr={currentCard}
+              current={currentCard}
             />
           ))}
         </div>
