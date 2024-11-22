@@ -3,7 +3,6 @@
 import { LearnMoreButtonPrimary } from "../../buttons/learnMoreButtonPrimary/learnMoreButtonPrimary";
 
 export function PlatformCarouselCard({ menuItem, curr }) {
-  console.log(menuItem);
   return (
     <div
       className={`w-100 p-72 font-neue bg-${menuItem.colors.background} flex transition ease-in-out duration-700`}

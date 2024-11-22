@@ -1,10 +1,13 @@
 /* eslint-disable react/prop-types */
 export function LearnMoreButtonPrimary({ color }) {
   return (
-    <a href="#" className={`flex gap-8 text-${color} text-4s items-center`}>
+    <a
+      href="#"
+      className={`flex gap-8 text-${color} text-4s items-center group`}
+    >
       <p>Learn more</p>
       <svg
-        className="fill-current"
+        className="fill-current group-hover:translate-x-4 transition ease-out duration-300"
         width="16"
         height="16"
         viewBox="0 0 16 16"

@@ -135,6 +135,9 @@ export default {
       strokeWidth: {
         1: "1px",
       },
+      textDecorationThickness: {
+        1: "1px",
+      },
       spacing: {
         1: "1px",
         2: "2px",
@@ -170,6 +173,9 @@ export default {
         72: "72px",
         100: "100px",
         120: "120px",
+      },
+      translate: {
+        4: "4px",
       },
       animation: {
         logoSliderAnimation: "slide 60s infinite linear",
