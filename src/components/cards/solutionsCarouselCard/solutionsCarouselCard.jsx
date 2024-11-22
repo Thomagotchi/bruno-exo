@@ -1,13 +1,13 @@
 /* eslint-disable react/prop-types */
 import solutions from "../../../assets/data/homeSolutionsData.json";
 
-export function SolutionsCarouselCard({ cardContent, curr }) {
+export function SolutionsCarouselCard({ cardContent, current }) {
   return (
     <div
       className={`flex w-800 relative inset-0 gap-48 mb-5 pr-8 transition ease-out duration-1000 ${
-        solutions.indexOf(cardContent) < curr && "opacity-0"
+        solutions.indexOf(cardContent) < current && "opacity-0"
       }`}
-      style={{ transform: `translateX(-${curr * 100}%)` }}
+      style={{ transform: `translateX(-${current * 100}%)` }}
     >
       <img
         loading="lazy"
@@ -17,7 +17,7 @@ export function SolutionsCarouselCard({ cardContent, curr }) {
       />
       <img
         className={`image-mask absolute transition-transform ease-out duration-500 left-1 -top-1 ${
-          curr === solutions.indexOf(cardContent)
+          current === solutions.indexOf(cardContent)
             ? "translate-y-0"
             : "-translate-y-18"
         }`}

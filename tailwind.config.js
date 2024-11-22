@@ -1,3 +1,17 @@
+const colors = {
+  current: "currentColor",
+  "primary-white": "rgba(255, 255, 255, 1)",
+  "primary-light-green": "rgba(244, 248, 239, 1)",
+  "primary-medium-green": "rgba(214, 224, 211, 1)",
+  "primary-dark-green": "rgba(60, 74, 65, 1)",
+  "primary-light-purple": "rgba(226, 212, 254, 1)",
+  "secondary-medium-purple": "rgba(148, 107, 182, 1)",
+  "secondary-dark-purple": "rgba(69, 56, 72, 1)",
+  "secondary-yellow": "rgba(255, 221, 165, 1)",
+  "secondary-orange": "rgba(255, 155, 110, 1)",
+  "secondary-pink": "rgba(255, 204, 204, 1)",
+};
+
 /** @type {import('tailwindcss').Config} */
 export default {
   content: ["./index.html", "./src/**/*.{js,jsx}"],
@@ -22,19 +36,7 @@ export default {
       26: "26px",
       48: "48px",
     },
-    colors: {
-      current: "currentColor",
-      "primary-white": "rgba(255, 255, 255, 1)",
-      "primary-light-green": "rgba(244, 248, 239, 1)",
-      "primary-medium-green": "rgba(214, 224, 211, 1)",
-      "primary-dark-green": "rgba(60, 74, 65, 1)",
-      "primary-light-purple": "rgba(226, 212, 254, 1)",
-      "secondary-medium-purple": "rgba(148, 107, 182, 1)",
-      "secondary-dark-purple": "rgba(69, 56, 72, 1)",
-      "secondary-yellow": "rgba(255, 221, 165, 1)",
-      "secondary-orange": "rgba(255, 155, 110, 1)",
-      "secondary-pink": "rgba(255, 204, 204, 1)",
-    },
+    colors,
     fontSize: {
       "1xs": [
         "12px",
@@ -98,19 +100,7 @@ export default {
       inter: ["Inter"],
     },
     extend: {
-      colors: {
-        current: "currentColor",
-        "primary-white": "rgba(255, 255, 255, 1)",
-        "primary-light-green": "rgba(244, 248, 239, 1)",
-        "primary-medium-green": "rgba(214, 224, 211, 1)",
-        "primary-dark-green": "rgba(60, 74, 65, 1)",
-        "primary-light-purple": "rgba(226, 212, 254, 1)",
-        "secondary-medium-purple": "rgba(148, 107, 182, 1)",
-        "secondary-dark-purple": "rgba(69, 56, 72, 1)",
-        "secondary-yellow": "rgba(255, 221, 165, 1)",
-        "secondary-orange": "rgba(255, 155, 110, 1)",
-        "secondary-pink": "rgba(255, 204, 204, 1)",
-      },
+      colors,
       opacity: {
         20: "0.2",
       },

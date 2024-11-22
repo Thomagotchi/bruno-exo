@@ -11,7 +11,7 @@ export function LogoSlider() {
           {partners.map((partner) => (
             <img
               className="mx-logoSliderMargin"
-              key={`after-${partner.name}-${partners.indexOf(partner)}`}
+              key={`before-${partner.name}-${partners.indexOf(partner)}`}
               src={partner.src}
               alt={partner.alt}
             ></img>

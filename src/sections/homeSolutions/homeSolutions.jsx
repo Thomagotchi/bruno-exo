@@ -3,13 +3,17 @@ import solutions from "../../assets/data/homeSolutionsData.json";
 import { SolutionsCarouselCard } from "../../components/cards/solutionsCarouselCard/solutionsCarouselCard";
 
 export function HomeSolutions() {
-  const [curr, setCurr] = useState(0);
+  const [current, setCurrent] = useState(0);
 
   const prev = () => {
-    setCurr((curr) => (curr === 0 ? solutions.length - 1 : curr - 1));
+    setCurrent((current) =>
+      current === 0 ? solutions.length - 1 : current - 1
+    );
   };
   const next = () => {
-    setCurr((curr) => (curr === solutions.length - 1 ? 0 : curr + 1));
+    setCurrent((current) =>
+      current === solutions.length - 1 ? 0 : current + 1
+    );
   };
 
   return (
@@ -125,7 +129,7 @@ export function HomeSolutions() {
             <SolutionsCarouselCard
               key={`${solution.title}-${solutions.indexOf(solution)}`}
               cardContent={solution}
-              curr={curr}
+              current={current}
             />
           ))}
         </div>
