@@ -1,0 +1,24 @@
+[
+  {
+    "title": "Data integration",
+    "src": "/images/technology/data-logo.svg",
+    "alt": "Database 2D icon.",
+    "content": "Lorem ipsum dolor sit amet consectetur. Sagittis sed congue semper sapien pulvinar. Tellus fames velit leo vel.",
+    "colors": {
+      "main": "primary-dark-green",
+      "logo": "primary-dark-green",
+      "background": "primary-light-green"
+    }
+  },
+  {
+    "title": "Security",
+    "src": "/images/technology/security-logo.svg",
+    "alt": "Padlock 2D icon.",
+    "content": "Lorem ipsum dolor sit amet consectetur. Sagittis sed congue semper sapien pulvinar. Tellus fames velit leo vel.",
+    "colors": {
+      "main": "primary-light-green",
+      "logo": "secondary-pink",
+      "background": "primary-dark-green"
+    }
+  }
+]

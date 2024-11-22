@@ -7,7 +7,7 @@ export function HomePlatform() {
 
   return (
     <section
-      id="platform"
+      id="home-platform"
       className="py-120 border-b-default border-primary-dark-green/20"
     >
       <div className="mx-auto w-1192">

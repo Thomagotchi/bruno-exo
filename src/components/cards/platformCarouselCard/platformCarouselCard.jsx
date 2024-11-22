@@ -45,7 +45,9 @@ export function PlatformCarouselCard({ menuItem, curr }) {
       </div>
       <div className="ml-auto w-fit flex flex-col">
         <img className="mb-32" src={menuItem.src} alt={menuItem.alt} />
-        <LearnMoreButtonPrimary color={menuItem.colors.button} />
+        <div className="ml-auto">
+          <LearnMoreButtonPrimary color={menuItem.colors.button} />
+        </div>
       </div>
     </div>
   );
