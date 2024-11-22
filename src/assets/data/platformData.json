@@ -19,7 +19,7 @@
       "scoring rules, and track performance with ",
       "custom dashboards."
     ],
-    "src": "/public/images/platform/esg-data-solution.png",
+    "src": "/images/platform/esg-data-solution.png",
     "alt": "ESG Data solution chart.",
     "colors": {
       "main": "secondary-dark-purple",
@@ -49,7 +49,7 @@
       "recommendations, and build your ",
       "decarbonization strategy."
     ],
-    "src": "/public/images/platform/carbon-assessment.png",
+    "src": "/images/platform/carbon-assessment.png",
     "alt": "Carbon assessment chart.",
     "colors": {
       "main": "primary-light-green",
@@ -79,7 +79,7 @@
       "analyses, collect data, and prepare audit-ready ",
       "reports."
     ],
-    "src": "/public/images/platform/csrd.png",
+    "src": "/images/platform/csrd.png",
     "alt": "CSRD chart.",
     "colors": {
       "main": "primary-dark-green",
@@ -108,7 +108,7 @@
       "conduct SFDR and PAI analysis, and stay",
       "updated on regulatory news"
     ],
-    "src": "/public/images/platform/impact-analysis.png",
+    "src": "/images/platform/impact-analysis.png",
     "alt": "ESG Data solution chart.",
     "colors": {
       "main": "primary-light-green",

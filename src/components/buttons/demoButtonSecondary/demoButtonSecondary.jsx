@@ -5,7 +5,7 @@ export function DemoButtonSecondary() {
       onClick={() => {
         console.log("hello");
       }}
-      className="font-neue flex flex-row items-center text-center ml-auto max-w-fit h-50 text-secondary-medium-purple text-4s gap-8 px-16 rounded-8 bg-primary-light-purple"
+      className="font-neue flex flex-row items-center text-center ml-auto max-w-fit h-50 text-secondary-medium-purple text-4s gap-8 px-16 rounded-8 bg-primary-light-purple hover:text-primary-light-green hover:border-secondary-dark-purple hover:bg-secondary-dark-purple transition ease-in-out duration-300"
     >
       <p className="w-fit">Get a demo</p>
       <svg
