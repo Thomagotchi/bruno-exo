@@ -22,6 +22,8 @@ export function HomeSolutions() {
           <h2 className="font-neue text-2m ">A solution for everyone</h2>
           <div className="flex flex-row ml-auto gap-4">
             <button
+              aria-label="Carousel back button"
+              name="Carousel back button"
               onClick={() => prev()}
               className="px-18 py-9 border-0.8 rounded-80 hover:text-primary-dark-green hover:bg-primary-light-green transition ease-out duration-200"
             >
@@ -69,6 +71,8 @@ export function HomeSolutions() {
               </svg>
             </button>
             <button
+              aria-label="Carousel forward button"
+              name="Carousel forward button"
               onClick={() => next()}
               className="px-18 py-9 border-0.8 rounded-80 hover:text-primary-dark-green hover:bg-primary-light-green transition ease-out duration-200"
             >

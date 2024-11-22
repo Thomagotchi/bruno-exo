@@ -1,6 +1,7 @@
 export function DemoButtonSecondary() {
   return (
     <button
+      name="Demo button secondary"
       type="button"
       onClick={() => {
         console.log("hello");
