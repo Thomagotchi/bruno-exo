@@ -10,12 +10,13 @@ export function SolutionsCarouselCard({ cardContent, curr }) {
       style={{ transform: `translateX(-${curr * 100}%)` }}
     >
       <img
+        loading="lazy"
         src={cardContent.src}
         alt={cardContent.alt}
         className="rounded-8 relative overflow-hidden"
       />
       <img
-        className={`image-mask absolute transition-transform ease-out duration-700 left-1 -top-1 ${
+        className={`image-mask absolute transition-transform ease-out duration-500 left-1 -top-1 ${
           curr === solutions.indexOf(cardContent)
             ? "translate-y-0"
             : "-translate-y-18"
